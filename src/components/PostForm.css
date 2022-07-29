@@ -1,0 +1,31 @@
+.PostForm {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 75%;
+  background-color: #79c5e8;
+  border: 1px solid #0357f4;
+  align-items: center;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: "Dosis", sans-serif;
+  box-sizing: border-box;
+}
+
+.PostForm .add-post {
+  background-color: #03a9f4;
+  border: 1px solid #0357f4;
+  font-family: "Dosis", sans-serif;
+  font-weight: bolder;
+  color: white;
+  height: 50px;
+  width: 75%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}

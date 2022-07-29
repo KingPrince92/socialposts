@@ -1,0 +1,36 @@
+.SocialPosts {
+  font-family: "Dosis", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.SocialPosts .form-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.158);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SocialPosts .feed {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+  width: 50%;
+}
+
+.SocialPosts .new-thoughts {
+  background-color: #03a9f4;
+  font-family: "Dosis", sans-serif;
+  font-weight: bolder;
+  color: white;
+  height: 50px;
+  width: 250px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}

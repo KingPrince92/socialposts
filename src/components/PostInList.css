@@ -1,0 +1,16 @@
+.PostInList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PostInList .titles {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.PostInList button {
+  height: 20px;
+  background: none;
+  border: none;
+}
